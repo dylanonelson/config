@@ -5,8 +5,6 @@ DISABLE_AUTO_TITLE="true"
 
 plugins=(git)
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
-
 source $ZSH/oh-my-zsh.sh
 source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 . `brew --prefix`/etc/profile.d/z.sh
@@ -26,9 +24,6 @@ alias f='find . -name'
 alias g='git'
 alias v='vim'
 alias t='tmux'
-
-# nyt
-alias scoop='sudo nginx -s reload'
 
 # git
 alias gs='git status'
