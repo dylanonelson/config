@@ -28,8 +28,6 @@ let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#fnamemod = ':t'
 
-" airblade/vim-gitgutter
-
 " Enable Solarized theme
 set background=dark
 colorscheme solarized
