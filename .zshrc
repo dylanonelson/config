@@ -38,6 +38,7 @@ alias gcm='git commit -m'
 alias gcb='git checkout -b'
 alias gco='git checkout'
 alias pretty='git log --oneline --graph --decorate'
+alias stashpull='git stash && git pull && git stash pop'
 
 # maven
 alias mcc='mvn clean compile'
