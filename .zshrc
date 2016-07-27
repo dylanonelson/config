@@ -68,6 +68,11 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 # postgres
 export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.4/bin
 
+# mongodb
+
+export MONGO_PATH=/usr/local/mongodb
+export PATH=$PATH:$MONGO_PATH/bin
+
 # Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 
