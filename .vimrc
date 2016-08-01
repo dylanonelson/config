@@ -76,3 +76,6 @@ map <C-H> <C-W>h
 
 set wildignore+=*.coffee.js,*.coffee.js.map,*.hbs.js,*.less.css,*.swp
 set ignorecase
+
+" Turn off sql autocomplete on cntrl-c
+let g:omni_sql_no_default_maps = 1
