@@ -23,7 +23,7 @@ alias s='sublime'
 alias f='find . -name'
 alias g='git'
 alias v='vim'
-alias t='tmux'
+alias t='tmux -2'
 
 # git
 alias gs='git status'
