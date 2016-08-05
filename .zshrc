@@ -60,15 +60,18 @@ alias rgcon='rails generate controller'
 export RBENV_ROOT=/usr/local/var/rbenv
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
+# PATH
+# npm
+export PATH=$PATH:~/.npm-packages/bin
+
 # postgres
 export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.4/bin
 
 # mongodb
-
 export MONGO_PATH=/usr/local/mongodb
 export PATH=$PATH:$MONGO_PATH/bin
 
-# Added by the Heroku Toolbelt
+# Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 
 # Set local vim as default editor
