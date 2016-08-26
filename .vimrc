@@ -86,6 +86,9 @@ map <C-K> <C-W>k
 map <C-L> <C-W>l
 map <C-H> <C-W>h
 
+" Ignore directories
+set wildignore+=**/node_modules/*
+" Ignore file types
 set wildignore+=*.coffee.js,*.coffee.js.map,*.hbs.js,*.less.css,*.swp
 set ignorecase
 
