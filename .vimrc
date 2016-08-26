@@ -75,7 +75,12 @@ set autoread
 
 " Mappings
 let mapleader=','
-map <Leader># :e#<return>
+map <Leader>3 :e#<return>
+map <Leader>E :Ex<return>
+map <Leader>e :e **/
+map <Leader>p :bp<return>
+map <Leader>n :bn<return>
+map <Leader>d :bd<return>
 map <C-J> <C-W>j
 map <C-K> <C-W>k
 map <C-L> <C-W>l
