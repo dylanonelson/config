@@ -31,6 +31,10 @@ let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#fnamemod = ':t'
 
+" ctrlpvim/ctrlp.vim
+let g:ctrlp_user_command = 'ag %s -l -g ""'
+let g:ctrlp_use_caching = 0
+
 " Enable Solarized theme
 set background=dark
 colorscheme solarized
