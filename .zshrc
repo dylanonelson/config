@@ -13,11 +13,13 @@ source $ZSH/oh-my-zsh.sh
 # utilities
 alias k='clear'
 alias x='exit'
-alias s='sublime'
+alias s='scoop'
 alias f='find . -name'
 alias g='git'
 alias v='vim'
 alias t='tmux -2'
+alias m='npm'
+alias mm='npm run'
 
 # git
 alias gs='git status'
