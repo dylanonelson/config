@@ -3,10 +3,9 @@ export ZSH=~/.oh-my-zsh
 ZSH_THEME="robbyrussell"
 DISABLE_AUTO_TITLE="true"
 
-plugins=(git)
+plugins=(git zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
-source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 . `brew --prefix`/etc/profile.d/z.sh
 
 # ALIASES
