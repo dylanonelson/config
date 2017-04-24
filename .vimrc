@@ -22,6 +22,7 @@ Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-sensible'
 Plugin 'tpope/vim-surround'
+Plugin 'vim-airline/vim-airline-themes'
 
 call vundle#end()
 
