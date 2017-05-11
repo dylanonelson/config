@@ -21,6 +21,10 @@ alias t='tmux -2'
 alias m='npm'
 alias mm='npm run'
 
+# tmux
+alias ta='tmux attach -t'
+alias tl='tmux ls'
+
 # git
 alias gs='git status'
 alias gd='git diff'
