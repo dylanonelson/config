@@ -85,7 +85,7 @@ export EDITOR="/usr/local/bin/vim"
 # python
 alias pyserv='python -m SimpleHTTPServer 8888 &'
 export PYTHONUSERBASE=~/.pip-packages
-export PATH=$PATH:$PYTHONUSERBASE
+export PATH=$PATH:$PYTHONUSERBASE/bin
 
 # functional testing
 alias ndin='node-inspector --web-port=8090; open "http://127.0.0.1:8090/?ws=127.0.0.1:8090&port=5858"'
