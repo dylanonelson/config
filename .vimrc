@@ -17,7 +17,6 @@ Plugin 'groenewege/vim-less'
 Plugin 'mxw/vim-jsx'
 Plugin 'rking/ag.vim'
 Plugin 'sheerun/vim-polyglot'
-Plugin 'ternjs/tern_for_vim'
 Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-sensible'
@@ -63,6 +62,7 @@ set cursorline
 " Tabs and indents
 set tabstop=2
 set shiftwidth=2
+set expandtab
 filetype plugin indent on
 set breakindent
 set showbreak=---\|
