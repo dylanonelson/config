@@ -17,9 +17,11 @@ Plugin 'groenewege/vim-less'
 Plugin 'mxw/vim-jsx'
 Plugin 'rking/ag.vim'
 Plugin 'sheerun/vim-polyglot'
+Plugin 'svermeulen/vim-easyclip'
 Plugin 'ternjs/tern_for_vim'
 Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-repeat'
 Plugin 'tpope/vim-sensible'
 Plugin 'tpope/vim-surround'
 Plugin 'vim-airline/vim-airline-themes'
@@ -35,6 +37,9 @@ let g:airline#extensions#tabline#fnamemod = ':t'
 " ctrlpvim/ctrlp.vim
 let g:ctrlp_user_command = 'ag %s -l -g ""'
 let g:ctrlp_use_caching = 0
+
+" svermeulen/vim-easyclip
+set clipboard=unnamed
 
 " Enable Solarized theme
 set background=dark
