@@ -20,6 +20,8 @@ alias v='vim'
 alias t='tmux -2'
 alias m='npm'
 alias mm='npm run'
+alias mi='npm i'
+alias ms='npm start'
 
 # tmux
 alias ta='tmux attach -t'
