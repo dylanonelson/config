@@ -88,3 +88,6 @@ export EDITOR="/usr/local/bin/vim"
 alias pyserv='python -m SimpleHTTPServer 8888 &'
 export PYTHONUSERBASE=~/.pip-packages
 export PATH=$PATH:$PYTHONUSERBASE/bin
+
+# rust
+export PATH=$PATH:$HOME/.cargo/bin
