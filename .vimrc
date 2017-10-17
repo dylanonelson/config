@@ -17,7 +17,6 @@ Plugin 'groenewege/vim-less'
 Plugin 'mxw/vim-jsx'
 Plugin 'rking/ag.vim'
 Plugin 'sheerun/vim-polyglot'
-Plugin 'svermeulen/vim-easyclip'
 Plugin 'ternjs/tern_for_vim'
 Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-fugitive'
@@ -38,8 +37,8 @@ let g:airline#extensions#tabline#fnamemod = ':t'
 let g:ctrlp_user_command = 'ag %s -l -g ""'
 let g:ctrlp_use_caching = 0
 
-" svermeulen/vim-easyclip
-set clipboard=unnamed
+" enable jsx even when extension isn't present
+let g:jsx_ext_required = 0
 
 " Enable Solarized theme
 set background=dark
