@@ -20,6 +20,7 @@ alias v='vim'
 alias t='tmux -2'
 alias m='npm'
 alias mm='npm run'
+alias mrm='echo "Here we go..." && rm -rf node_modules && npm i'
 alias mi='npm i'
 alias ms='npm start'
 
