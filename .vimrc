@@ -32,6 +32,9 @@ let g:airline_extensions = ['ctrlp']
 
 " ctrlpvim/ctrlp.vim
 let g:ctrlp_use_caching = 0
+" Ignore files in .gitignore
+" https://github.com/kien/ctrlp.vim/issues/273#issue-6692943
+let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
 
 " mxw/vim-jsx
 " enable jsx even when extension isn't present
