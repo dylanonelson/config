@@ -39,10 +39,13 @@ nmap <Leader>r :ALEFindReferences<return>
 nmap <Leader>t :ALEHover<return>
 nmap <Leader>f :ALEFix<return>
 nmap <Leader>e :ALEDetail<return>
+nmap <Leader>w :ALERename<return>
 nmap ]e <Plug>(ale_next_wrap)
 nmap [e <Plug>(ale_previous_wrap)
 let g:ale_fixers = {
-  \'typescript': ['prettier', 'eslint']
+  \'typescript': ['prettier', 'eslint'],
+  \'typescriptreact': ['prettier', 'eslint'],
+  \'javascript': ['prettier', 'eslint'],
 \}
 
 " junegunn/fzf.vim
