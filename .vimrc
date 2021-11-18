@@ -1,4 +1,3 @@
-" Vundle
 set nocompatible
 filetype off
 
@@ -7,24 +6,23 @@ filetype off
 " This setting must be set before ALE is loaded.
 let g:ale_completion_enabled = 1
 
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+" vim-plug
+call plug#begin(stdpath('data') . '/plugged')
 
-Plugin 'VundleVim/Vundle.vim'
+Plug 'airblade/vim-gitgutter'
+Plug 'dense-analysis/ale'
+Plug 'editorconfig/editorconfig-vim'
+Plug 'junegunn/fzf'
+Plug 'junegunn/fzf.vim'
+Plug 'leafgarland/typescript-vim'
+Plug 'luochen1990/rainbow'
+Plug 'mxw/vim-jsx'
+Plug 'styled-components/vim-styled-components'
+Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-fugitive'
+Plug 'wlangstroth/vim-racket'
 
-Plugin 'airblade/vim-gitgutter'
-Plugin 'dense-analysis/ale'
-Plugin 'editorconfig/editorconfig-vim'
-Plugin 'junegunn/fzf'
-Plugin 'junegunn/fzf.vim'
-Plugin 'leafgarland/typescript-vim'
-Plugin 'lifepillar/vim-solarized8'
-Plugin 'mxw/vim-jsx'
-Plugin 'styled-components/vim-styled-components'
-Plugin 'tpope/vim-commentary'
-Plugin 'tpope/vim-fugitive'
-
-call vundle#end()
+call plug#end()
 
 let mapleader=','
 
@@ -58,12 +56,13 @@ let g:jsx_ext_required = 0
 
 " Enable syntax highlighting
 syntax enable
-set background=dark
-colorscheme solarized8
 
 " Netrw settings
 let g:netrw_bufsettings = 'noma nomod nu nobl nowrap ro'
 let g:netrw_list_hide='\.coffee\.js$,\.coffee\.js\.map$,\.hbs\.js$,\.less\.css$,\.sw.$'
+
+" Disable search highlighting
+set nohlsearch
 
 " Add line numbers
 set number
