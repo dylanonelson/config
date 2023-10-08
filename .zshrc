@@ -5,6 +5,9 @@ export PATH=/opt/homebrew/bin:$PATH
 ## npm
 export PATH=~/.npm-packages/bin:$PATH
 
+## pipenv
+export PATH=/Users/dylanonelson/Library/Python/3.9/bin:$PATH
+
 ## nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -20,13 +23,13 @@ export PATH=$PATH:$HOME/.cargo/bin
 
 export ZSH=~/.oh-my-zsh
 
-ZSH_THEME="garyblessington"
+ZSH_THEME="powerlevel10k/powerlevel10k"
 DISABLE_AUTO_TITLE="true"
 
-plugins=(git zsh-syntax-highlighting)
+# plugins=(git zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
-. `brew --prefix`/etc/profile.d/z.sh
+source `brew --prefix`/etc/profile.d/z.sh
 
 # ALIASES
 
@@ -34,7 +37,7 @@ source $ZSH/oh-my-zsh.sh
 alias k='clear'
 alias x='exit'
 alias g='git'
-alias v='vim'
+alias v='nvim'
 alias t='tmux -2'
 alias m='npm'
 alias mm='npm run'
@@ -63,3 +66,6 @@ alias gpt='git push --follow-tags'
 alias gs='git status'
 alias pretty='git log --oneline --graph --decorate'
 alias stashpull='git stash && git pull && git stash pop'
+
+# dbx
+source ~/.zshrc_dbx
